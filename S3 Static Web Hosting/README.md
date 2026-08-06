@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates how to host a static website on AWS using Amazon S3, Amazon CloudFront, and Amazon Route 53. The architecture provides a secure, scalable, and highly available solution for serving static web content over HTTPS.
+This project demonstrates how to host a static website on AWS using Amazon S3, Amazon CloudFront, and Amazon Route 53. 
 
 This is a common production architecture for hosting personal websites, portfolios, documentation sites, and frontend web applications.
 
