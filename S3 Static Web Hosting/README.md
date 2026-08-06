@@ -10,7 +10,7 @@ This is a common production architecture for hosting personal websites, portfoli
 
 ## Architecture
 
-![AWS Architecture](S3%20Static%20Web%20Hosting.jpg)
+![AWS Architecture](StaticWebArchitecture.jpg)
 
 ---
 
