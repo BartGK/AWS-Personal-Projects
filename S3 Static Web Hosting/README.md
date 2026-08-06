@@ -14,6 +14,12 @@ This is a common production architecture for hosting personal websites, portfoli
 
 ---
 
+## Output Website
+
+![AWS Architecture](website.jpg)
+
+---
+
 ## Solution Architecture
 
 The solution consists of the following AWS services:
@@ -36,7 +42,6 @@ The solution consists of the following AWS services:
 7. The user receives the website over HTTPS.
 
 ---
-
 ## AWS Services Used
 
 | Service | Purpose |
@@ -67,21 +72,6 @@ The solution consists of the following AWS services:
 - S3 bucket access restricted through CloudFront Origin Access Control (OAC)
 - Website is accessed only through CloudFront
 - DNS managed by Route 53
-
----
-
-## Cost Considerations
-
-This architecture is inexpensive to operate for personal projects.
-
-Typical monthly costs:
-
-- Amazon S3: Free Tier or a few cents depending on storage.
-- CloudFront: Free Tier available; low cost for light traffic.
-- Route 53: Hosted zone and domain registration (if using a custom domain).
-- ACM: Free.
-
-Estimated monthly cost for a personal portfolio website is typically **less than USD $2**, excluding domain registration.
 
 ---
 
